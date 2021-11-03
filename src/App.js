@@ -58,7 +58,7 @@ function App() {
     <FullPage ref={pageRef}>
         <Slide>
           <div className="page-inner">
-            <div className="title">NO NUT NOVEMBER token, Be Limitless.</div>
+            <div className="title">NO NUT NOVEMBER<b> TOKEN, BE LIMITLESS.</b></div>
             <div className="desc">
               <div className='descp'><p>The DeFi token, that is made for growth.</p></div>
               <div className='desc-small'>frictionless, yield-generating and neccessary 
@@ -77,7 +77,7 @@ function App() {
         </Slide>
         <Slide>
           
-        <div className="page-inner">
+        <div className="page-inner pi2">
             <div className="title">NO NUT NOVEMBER MAKES EVERYONE EARN</div>
             <div className="desc">
               <div className='desc-small'>

@@ -20,7 +20,7 @@ nav{opacity: 0;
 {
   display: block;
   position: fixed;
-  top: 50px;
+  top: 25px;
   left: 50px;
   
   z-index: 1;
@@ -143,7 +143,7 @@ nav{opacity: 0;
   align-items: center;
   font-size: 30px;
   left: 40%;
-  top:40px;
+  top:15px;
 }
 #logo{
   width: 80px;
@@ -197,13 +197,14 @@ p{
   height: 100%;
 }
 .title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 90px;
   text-align: center;
-  width: 75%;
+  width:55%;
+  line-height: 80px;
   font-weight: 600;
+}
+.title b{
+  font-size: 60px;
 }
 .desc{
   margin-top: 20px;
@@ -419,11 +420,13 @@ p{
 
 @media screen and (max-width: 1400px){
   .title{font-size: 70px;}
+  .title b{font-size: 50px;}
   .desc-small{width: 100%;}
 }
 
 @media screen and (max-width: 1000px){
   .title{font-size: 50px;}
+  .title{font-size: 30px;}
   p{font-size: 20px;}
   .block-title{font-size: 20px;}
   .desc-small{font-size: 16px;line-height: 30px;}
@@ -450,16 +453,18 @@ p{
   #bg-image{width:400px;left: calc(50% - 200px);top:calc(50% - 300px);}
   .minilogo{opacity: 1;}
   .page-inner{justify-content: space-evenly; height: 100vh;}
-  .title{font-size: 32px;width: 90%;}
+  .title{font-size: 30px;width: 95%;line-height: 35px;margin-bottom: 30px;}
+  .title b{font-size: 18px;width: 90%;}
   .desc{width: 90%; text-align: center;margin-top: 0;}
   .desc-small{width: 90%;line-height: 20px; font-size: 12px;}
   p{font-size: 14px;}
+  .block{margin-top: 5px;}
   .block-title{font-size: 20px;}
   .text-normal{margin-top:4px;font-size: 12px;line-height: 15px;}
   .text-left{margin-top: 8px;width: 80%;}
-  .columns{flex-direction: column;min-width: 200px;width: 95%;margin-top: -140px;align-items: center;}
+  .columns{flex-direction: column;min-width: 200px;width: 95%;margin-top: -85px;align-items: center;}
   .block-small-text{font-size: 12px;}
-  .columnsmaller{min-width: 200px;width: 95%;margin-top: -80px;align-items: center;}
+  .columnsmaller{min-width: 200px;width: 95%;align-items: center;}
   .left-column{width: 75%;}
   .right-column{width: 75%;}
   .spacedblock{margin-top: 0px;margin-bottom: 8px;}
@@ -474,4 +479,6 @@ p{
   .contract-text{margin-bottom: 3px;line-height: 13px;}
   .contract{width:100%;margin-top: 20px;}
   .contract-proof-right-line{line-height: 14px;font-size: 12px; margin-top: 8px;}
+  .pi2{justify-content: center;}
+  .columns3all{margin-top: -90px;}
 }
