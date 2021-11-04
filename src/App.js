@@ -162,20 +162,20 @@ function App() {
                 <div className="block-small-text"><b>WHITE PAPER RELEASE</b></div>
                 </div>
               <div className="block spacedblock">
-                <div className="block-small-title">
-                  <p><b>10000 HOLDERS</b></p>
-                </div>
-                <div className="block-small-text"><b>MAJOR MARKETING CAMPAGNE</b></div>
-                <div className="block-small-text"><b>NO NUT NOVEMBER NFT-RELEASE; SPECIAL ARTIST FEATURES</b></div>
-              </div></div>
-            <div className="right-column ">
-              <div className="block spacedblock">
               <div className="block-small-title">
                 <p><b>1000 HOLDERS</b></p>
               </div>
               <div className="block-small-text"><b>COINGEKO LISTING</b></div>
               <div className="block-small-text"><b>COINMARKETCAP LISTING</b></div>
               <div className="block-small-text"><b>MARKETING CAMPAGNE</b></div>
+              </div>
+                </div>
+            <div className="right-column ">
+              <div className="block spacedblock"><div className="block-small-title">
+                  <p><b>10000 HOLDERS</b></p>
+                </div>
+                <div className="block-small-text"><b>MAJOR MARKETING CAMPAGNE</b></div>
+                <div className="block-small-text"><b>NO NUT NOVEMBER NFT-RELEASE; SPECIAL ARTIST FEATURES</b></div>
               </div>
               <div className="block spacedblock">
               

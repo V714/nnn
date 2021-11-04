@@ -453,15 +453,15 @@ p{
   #bg-image{width:400px;left: calc(50% - 200px);top:calc(50% - 300px);}
   .minilogo{opacity: 1;}
   .page-inner{justify-content: space-evenly; height: 100vh;}
-  .title{font-size: 30px;width: 95%;line-height: 35px;margin-bottom: 30px;}
-  .title b{font-size: 18px;width: 90%;}
+  .title{font-size: 32px;width: 98%;line-height: 35px;margin-bottom: 30px;}
+  .title b{font-size: 16px;width: 90%;}
   .desc{width: 90%; text-align: center;margin-top: 0;}
   .desc-small{width: 90%;line-height: 20px; font-size: 12px;}
   p{font-size: 14px;}
   .block{margin-top: 5px;}
   .block-title{font-size: 20px;}
   .text-normal{margin-top:4px;font-size: 12px;line-height: 15px;}
-  .text-left{margin-top: 8px;width: 80%;}
+  .text-left{margin-top: 25px;width: 80%;}
   .columns{flex-direction: column;min-width: 200px;width: 95%;margin-top: -85px;align-items: center;}
   .block-small-text{font-size: 12px;}
   .columnsmaller{min-width: 200px;width: 95%;align-items: center;}
