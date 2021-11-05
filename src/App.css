@@ -582,15 +582,15 @@ p{
   .presale{justify-content: center; margin-bottom: 0;margin-top: 20px;}
   .presale-title{margin-bottom: 0px;}
   .columns-presale-left{width: 80%;}
-  .columns-presale-left-text{font-size: 12px;line-height: 13px;}
+  .columns-presale-left-text{font-size: 12px;line-height: 13px;margin-top: 10px;}
   .columns-presale-right-text{font-size: 12px;margin-top: 4px;}
   .columns-presale{flex-direction: column;justify-content: center;align-items: center;}
-  .columns-presale-middle{margin-top: 25px;}
+  .columns-presale-middle{margin-top: 17px;}
   .columns-presale-right{margin-bottom: 10px;}
-  .presale-middle{margin-top: 10px;}
+  .presale-middle{margin-top: 7px;}
   .presale-bottom-column-box{margin: 4px 4px;}
   .presale-bottom-column-box-title{font-size: 12px;}
-  .presale-bottom-column-box-info{font-size: 12px;border-radius: 20px;}
-  .presale-bottom-column-box-info-big{font-size: 12px;padding: 40px 50px;border-radius: 20px;}
+  .presale-bottom-column-box-info{font-size: 12px;border-radius: 10px;padding: 10px 50px;}
+  .presale-bottom-column-box-info-big{font-size: 12px;padding: 20px 63px;border-radius: 10px;}
 
 }
