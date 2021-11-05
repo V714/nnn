@@ -566,20 +566,21 @@ p{
   .right-column{width: 75%;}
   .spacedblock{margin-top: 0px;margin-bottom: 8px;}
   .tsm p{font-size: 16px;}
-  .sm{font-size: 10px;margin-top: 7px;}
+  .sm{font-size: 10px;margin-top: 7px;line-height: 12px;}
   #input-copy{width: 300px;}
   .top-middle-link{font-size: 12px;margin-right: 10px;}
-  .link{margin-top:5px;justify-self: center; align-self: center;width: 100%;}
-  .mimg{width: 30px;height: 30px;}
+  .link{font-size:14px;margin-top:1px;justify-self: center; align-self: center;width: 100%;}
+  .mimg{width: 25px;height: 25px;}
   .linkimg{width:17px;height:12px;}
   .contract-textes{margin-top:5px;font-size: 12px;}
   .contract-text{margin-bottom: 3px;line-height: 13px;}
-  .contract{width:100%;margin-top: 20px;}
+  .contract{width:100%;margin-top: 7px;}
+  .contract-bar{margin-top: 2px;}
   .contract-proof-right-line{line-height: 14px;font-size: 12px; margin-top: 8px;}
   .pi2{justify-content: center;}
-  .columns3all{margin-top: -90px;}
-
-  .presale{justify-content: center; margin-bottom: 0;margin-top: 20px;}
+  #copied{margin-left: 0;margin-bottom: 0;}
+  #input-copy{padding-left: 10px;text-overflow:ellipsis;width: 90%;}
+  .presale{justify-content: center; margin-bottom: 0;}
   .presale-title{margin-bottom: 0px;}
   .columns-presale-left{width: 80%;}
   .columns-presale-left-text{font-size: 12px;line-height: 13px;margin-top: 10px;}

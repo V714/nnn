@@ -283,7 +283,7 @@ function App() {
               <div className="contract-bar-title">contract address</div>
               <div className="contract-bar">
                 <div id="copied">copied!</div>
-                <button id="input-copy" onClick={()=>copy()}><div id="input-text">9483fh8934h</div><span id="tooltiptext">Click to copy</span></button>
+                <button id="input-copy" onClick={()=>copy()}><div id="input-text">0xff7271156f9acb72ccfaf2f448a4b7d834bc49df</div><span id="tooltiptext">Click to copy</span></button>
                 <button id="copy" onClick={()=>copy()}>copy</button>
               </div>
               <div className="contract-textes">
