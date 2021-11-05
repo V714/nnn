@@ -37,9 +37,10 @@ function App() {
       <a onClick={()=>goToPage(0)}><li>home</li></a>
       <a onClick={()=>goToPage(1)}><li>earn</li></a>
       <a onClick={()=>goToPage(2)}><li>tokenomics</li></a>
-      <a onClick={()=>goToPage(3)}><li>roadmap</li></a>
-      <a onClick={()=>goToPage(4)}><li>how to buy</li></a>
-      <a onClick={()=>goToPage(5)}><li>faq</li></a>
+      <a onClick={()=>goToPage(3)}><li>presale</li></a>
+      <a onClick={()=>goToPage(4)}><li>roadmap</li></a>
+      <a onClick={()=>goToPage(5)}><li>how to buy</li></a>
+      <a onClick={()=>goToPage(6)}><li>faq</li></a>
     </ul>
   </div>
 </nav>
