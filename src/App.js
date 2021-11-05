@@ -49,9 +49,10 @@ function App() {
         <a onClick={()=>goToPage(0)} className="top-middle-link">home</a>
         <a onClick={()=>goToPage(1)} className="top-middle-link">earn</a>
         <a onClick={()=>goToPage(2)} className="top-middle-link">tokenomics</a>
-        <a onClick={()=>goToPage(3)} className="top-middle-link">roadmap</a>
-        <a onClick={()=>goToPage(4)} className="top-middle-link">how to buy</a>
-        <a onClick={()=>goToPage(5)} className="top-middle-link">FAQ</a>
+        <a onClick={()=>goToPage(3)} className="top-middle-link">presale</a>
+        <a onClick={()=>goToPage(4)} className="top-middle-link">roadmap</a>
+        <a onClick={()=>goToPage(5)} className="top-middle-link">how to buy</a>
+        <a onClick={()=>goToPage(6)} className="top-middle-link">FAQ</a>
       </div>
     </div>
     <img id="bg-image"src={require('./nonut.svg').default}/>
@@ -147,6 +148,60 @@ function App() {
             </div>
             </div>
 
+          </div>
+        </Slide>
+        <Slide>
+          <div className="page-inner presale">
+            <div className="title presale-title">PRESALE</div>
+            <div className="columns-presale">
+              <div className="columns-presale-left">
+                <div className="columns-presale-left-text">The $NNN pre-sale will take place on DxSale, 
+                                                    will be annonunced as soon as our social channels have reached 
+                                                    the targeted number of following. </div>
+                <div className="columns-presale-left-text">Once the pre-sale is completed, the contract will be 
+                          immediately renounced and the liquidity will be locked on PancakeSwap.</div>
+              </div>
+              <div className="columns-presale-middle">targets:</div>
+              <div className="columns-presale-right">
+                <div className="columns-presale-right-text">
+                  <img src={require('./telegram.svg').default}/> 500 Group members
+                </div>
+                <div className="columns-presale-right-text">
+                  <img src={require('./twitter2.svg').default}/>500 Followers
+                </div>
+              </div>
+            </div>
+            <div className="presale-middle">
+              white paper
+            </div>
+            <div className="presale-bottom">
+              <div className="presale-bottom-column">
+                <div className="presale-bottom-column-box">
+                  <div className="presale-bottom-column-box-title">available coins for pre sale</div>
+                  <div className="presale-bottom-column-box-info-big">available coins for pre sale</div>
+                </div>
+              </div>
+              <div className="presale-bottom-column">
+                <div className="presale-bottom-column-box">
+                  <div className="presale-bottom-column-box-title">Softcap</div>
+                  <div className="presale-bottom-column-box-info">20 BNB</div>
+                </div>
+                <div className="presale-bottom-column-box">
+                  <div className="presale-bottom-column-box-title">minimum purchase</div>
+                  <div className="presale-bottom-column-box-info">0.1 BNB</div>
+                </div>
+              </div>
+              <div className="presale-bottom-column">
+                <div className="presale-bottom-column-box">
+                  <div className="presale-bottom-column-box-title">Hardcap</div>
+                  <div className="presale-bottom-column-box-info">40 BNB</div>
+                </div>
+                <div className="presale-bottom-column-box">
+                  <div className="presale-bottom-column-box-title">maximum purchase</div>
+                  <div className="presale-bottom-column-box-info">1 BNB</div>
+                </div>
+              </div>
+            </div>
           </div>
         </Slide>
         <Slide>
