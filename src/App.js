@@ -262,7 +262,7 @@ function App() {
           <div className="page-inner pornstarsite" >
             <div className="title pornstar" >ARE YOU A <div className="pornstarp">PORNSTAR?</div></div>
             <div className="block-small-title porn" style={{marginTop:"80px"}}>
-                  <b>CONTENT REVEALD WHEN WE REACH THE <p>10kT?</p></b>
+                  <b>CONTENT WILL BE REVEALED WHEN WE REACH <p>10kT</p></b>
                 </div>
                 <div className="block-small-text porn"><b><p> 10 000 T</p>ELEGRAM USERS</b></div>
                 <div className="block-small-text porn"><b><p>10 000 T</p>WITTER FOLLOWERS</b></div>
