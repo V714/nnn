@@ -39,8 +39,9 @@ function App() {
       <a onClick={()=>goToPage(2)}><li>tokenomics</li></a>
       <a onClick={()=>goToPage(3)}><li>presale</li></a>
       <a onClick={()=>goToPage(4)}><li>roadmap</li></a>
-      <a onClick={()=>goToPage(5)}><li>how to buy</li></a>
-      <a onClick={()=>goToPage(6)}><li>faq</li></a>
+      <a onClick={()=>goToPage(5)}><li>pornstar</li></a>
+      <a onClick={()=>goToPage(6)}><li>how to buy</li></a>
+      <a onClick={()=>goToPage(7)}><li>faq</li></a>
     </ul>
   </div>
 </nav>
@@ -52,19 +53,20 @@ function App() {
         <a onClick={()=>goToPage(2)} className="top-middle-link">tokenomics</a>
         <a onClick={()=>goToPage(3)} className="top-middle-link">presale</a>
         <a onClick={()=>goToPage(4)} className="top-middle-link">roadmap</a>
-        <a onClick={()=>goToPage(5)} className="top-middle-link">how to buy</a>
-        <a onClick={()=>goToPage(6)} className="top-middle-link">FAQ</a>
+        <a onClick={()=>goToPage(5)} className="top-middle-link">pornstar</a>
+        <a onClick={()=>goToPage(6)} className="top-middle-link">how to buy</a>
+        <a onClick={()=>goToPage(7)} className="top-middle-link">FAQ</a>
       </div>
     </div>
     <img id="bg-image"src={require('./nonut.svg').default}/>
     <FullPage ref={pageRef}>
         <Slide>
           <div className="page-inner">
-            <div className="title">NO NUT NOVEMBER<b> TOKEN, BE LIMITLESS.</b></div>
+            <div className="title"><b>Be Limitless.</b></div>
             <div className="desc">
-              <div className='descp'><p>The DeFi token, that is made for growth.</p></div>
-              <div className='desc-small'>frictionless, yield-generating and neccessary 
-                                              to secure and power the NO NUT NOVEMBER ecostystem.
+              <div className='descp'><p>NNN will revolutionize the adult film industry with decentralization.</p></div>
+              <div className='desc-small'>NoNutNovember Token is not only a meme, but a real long-term 
+                              project focused to build decentralized adult film website.
                                           
               </div>
               <div className="two-buttons">
@@ -110,7 +112,7 @@ function App() {
                   <p>LIQUIDITY ACCUMULATION</p>
                 </div>
                 <div className="block-small-text">
-                <b>3%</b> Fee on sell trades, added to the liquidity pool by smart contract locked forever. 
+                <b>4%</b> Fee on sell trades, added to the liquidity pool by smart contract locked forever. 
                 </div>
               </div>
 
@@ -124,10 +126,10 @@ function App() {
               </div>
               <div className="block">
               <div className="block-small-title">
-                <p>MARKETING WALLET</p>
+                <br/>
               </div>
               <div className="block-small-text">
-              <b>3%</b> Fee goes to the marketing wallet 
+              <br/><br/>
               </div></div>
 
             </div>
@@ -137,15 +139,27 @@ function App() {
                 <p>LOCKED LIQUIDITY</p>
               </div>
               <div className="block-small-text">
-              <b>50%</b> permanently locked with BNB on PanCakeSwap to provide initial liquidity
+              <b>60%</b> permanently locked with BNB on PanCakeSwap to provide initial liquidity
               </div></div>
               <div className="block-small-title">
               <div className="block">
-                <p>BURN</p>
+                <p>PRESALE & OTHER</p>
               </div>
               <div className="block-small-text">
-              <b>30%</b> initially burned 
-              </div></div>
+              <b>25%</b> PUBLIC PRESALE 
+              </div>
+              <div className="block-small-text">
+              <b>10%</b> dev wallet 
+              </div><div className="block-small-text">
+              <b>3%</b> Marketing (Ads, Merch etc.)
+              </div><div className="block-small-text">
+              <b>2%</b> Pornstars participating in the project
+              </div><div className="block-small-text"><br/>
+              </div><div className="block-small-text">
+              <b>10,000,000,000 INITIAL SUPPLY</b> 
+              </div>
+              
+            </div>
             </div>
             </div>
 
@@ -185,21 +199,21 @@ function App() {
               <div className="presale-bottom-column">
                 <div className="presale-bottom-column-box">
                   <div className="presale-bottom-column-box-title">Softcap</div>
-                  <div className="presale-bottom-column-box-info">20 BNB</div>
+                  <div className="presale-bottom-column-box-info">35 BNB</div>
                 </div>
                 <div className="presale-bottom-column-box">
                   <div className="presale-bottom-column-box-title">minimum purchase</div>
-                  <div className="presale-bottom-column-box-info">0.1 BNB</div>
+                  <div className="presale-bottom-column-box-info">0.01 BNB</div>
                 </div>
               </div>
               <div className="presale-bottom-column">
                 <div className="presale-bottom-column-box">
                   <div className="presale-bottom-column-box-title">Hardcap</div>
-                  <div className="presale-bottom-column-box-info">40 BNB</div>
+                  <div className="presale-bottom-column-box-info">69 BNB</div>
                 </div>
                 <div className="presale-bottom-column-box">
                   <div className="presale-bottom-column-box-title">maximum purchase</div>
-                  <div className="presale-bottom-column-box-info">1 BNB</div>
+                  <div className="presale-bottom-column-box-info">3 BNB</div>
                 </div>
               </div>
             </div>
@@ -241,6 +255,18 @@ function App() {
               <div className="block-small-text"><b>MORE COMING SOON</b></div>
             </div></div>
             </div>
+
+          </div>
+        </Slide>
+        <Slide>
+          <div className="page-inner pornstarsite" >
+            <div className="title pornstar" >ARE YOU A <div className="pornstarp">PORNSTAR?</div></div>
+            <div className="block-small-title porn" style={{marginTop:"80px"}}>
+                  <b>CONTENT REVEALD WHEN WE REACH THE <p>10kT?</p></b>
+                </div>
+                <div className="block-small-text porn"><b><p> 10 000 T</p>ELEGRAM USERS</b></div>
+                <div className="block-small-text porn"><b><p>10 000 T</p>WITTER FOLLOWERS</b></div>
+                <div className="block-small-text porn"><b><p>10 000 T</p>OKEN HOLDERS</b></div>
 
           </div>
         </Slide>
