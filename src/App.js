@@ -229,7 +229,6 @@ function App() {
                   <p><b>NOVEMBER 1ST</b></p>
                 </div>
                 <div className="block-small-text"><b>WEBSITE LAUNCH</b></div>
-                <div className="block-small-text"><b>WHITE PAPER RELEASE</b></div>
                 </div>
               <div className="block spacedblock">
               <div className="block-small-title">
