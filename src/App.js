@@ -281,14 +281,14 @@ function App() {
                 <a className="link">
                   <img className="mimg" src={require("./pcs.png").default}/>
                   <b>Pancake Swap</b>
-                  <img className="linkimg" src={require("./link.svg").default}/>
+                  {/* <img className="linkimg" src={require("./link.svg").default}/> */}After Presale
                 </a>
                 <a className="link">
                   <img className="mimg" src={require("./poocoin.png").default}/>
                   <b>Poocoin</b>
-                  <img className="linkimg" src={require("./link.svg").default}/>
+                  {/* <img className="linkimg" src={require("./link.svg").default}/> */}After Presale
                 </a>
-                <a className="link">
+                <a href="https://bscscan.com/address/0xff7271156f9acb72ccfaf2f448a4b7d834bc49df" className="link">
                   <img className="mimg" src={require("./bsc.png").default}/>
                   <b>BSCscan</b>
                   <img className="linkimg" src={require("./link.svg").default}/>
@@ -296,12 +296,12 @@ function App() {
                 <a className="link">
                   <img className="mimg" src={require("./gecko.png").default}/>
                   <b style={{color:'#EB5C5C'}}>Coingecko</b>
-                  <div style={{color:'#92FFB0',fontSize:'12px'}}>Applied</div>
+                  <div style={{color:'#92FFB0',fontSize:'12px'}}>After Presale</div>
                 </a>
                 <a className="link">
                   <img className="mimg" src={require("./bagged.png").default}/>
                   <b style={{color:'#EB5C5C'}}>Bogged</b>
-                  <div style={{color:'#92FFB0',fontSize:'12px'}}>Applied</div>
+                  <div style={{color:'#92FFB0',fontSize:'12px'}}>After Presale</div>
                 </a>
             </div>
             <div className="right-column righttop">
