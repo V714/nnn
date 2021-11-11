@@ -235,6 +235,7 @@ function App() {
               <div className="block-small-title">
                 <p><b>1000 HOLDERS</b></p>
               </div>
+               <div className="block-small-text"><b>WHITE PAPER RELEASE</b></div>
               <div className="block-small-text"><b>COINGEKO LISTING</b></div>
               <div className="block-small-text"><b>COINMARKETCAP LISTING</b></div>
               <div className="block-small-text"><b>MARKETING CAMPAGNE</b></div>
