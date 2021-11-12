@@ -170,9 +170,8 @@ function App() {
             <div className="title presale-title">PRESALE</div>
             <div className="columns-presale">
               <div className="columns-presale-left">
-                <div className="columns-presale-left-text">The $NNN pre-sale will take place on DxSale, 
-                                                    will be annonunced as soon as our social channels have reached 
-                                                    the targeted number of following. </div>
+                <div className="columns-presale-left-text">The $NNN pre-sale will take place on DxSale and will be 
+                      annonunced as soon as our social channels have reached the targeted number of following.</div>
                 <div className="columns-presale-left-text">Once the pre-sale is completed, the contract will be 
                           immediately renounced and the liquidity will be locked on PancakeSwap.</div>
               </div>
